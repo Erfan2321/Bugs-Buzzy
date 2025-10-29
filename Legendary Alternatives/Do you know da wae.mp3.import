@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cstvbmco21rf6"
+path="res://.godot/imported/Do you know da wae.mp3-fc78c8f5c2fb2e449cf6eed422787dda.mp3str"
+
+[deps]
+
+source_file="res://Legendary Alternatives/Do you know da wae.mp3"
+dest_files=["res://.godot/imported/Do you know da wae.mp3-fc78c8f5c2fb2e449cf6eed422787dda.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dtax75rmoqhkt"
+path="res://.godot/imported/Ghod6.ogg-16ae20a7c210aa5ff9b632698e86c8a3.oggvorbisstr"
+
+[deps]
+
+source_file="res://Chicken Sounds/Ghod6.ogg"
+dest_files=["res://.godot/imported/Ghod6.ogg-16ae20a7c210aa5ff9b632698e86c8a3.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
