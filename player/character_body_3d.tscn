@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dhnv82b1kmndp"]
+
+[node name="CharacterBody3D" type="Node3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2.1, 0, 0, 0, -1.0105798, 0, 0, 0, 0.41999996, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="."]
