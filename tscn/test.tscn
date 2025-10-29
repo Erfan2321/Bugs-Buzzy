@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cosaq8niltuvw"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_5mtcc"]
+
+[node name="Test" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_5mtcc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D"]
