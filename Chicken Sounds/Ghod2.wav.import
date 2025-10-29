@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bafq4f8b46nfr"
+path="res://.godot/imported/Ghod2.wav-26543ffc9bba46ca2f5985d202f19300.sample"
+
+[deps]
+
+source_file="res://Chicken Sounds/Ghod2.wav"
+dest_files=["res://.godot/imported/Ghod2.wav-26543ffc9bba46ca2f5985d202f19300.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
