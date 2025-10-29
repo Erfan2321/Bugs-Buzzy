@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dq8a2xtcdu2a5"]
+
+[ext_resource type="PackedScene" uid="uid://doxfbxvpms55x" path="res://Models/Egg/Egg.glb" id="1_qql0f"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_cqo3r"]
+
+[node name="Egg" instance=ExtResource("1_qql0f")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="2"]
+transform = Transform3D(0.2, 0, 0, 0, 0.245, 0, 0, 0, 0.195, 0, 0.105, 0)
+shape = SubResource("SphereShape3D_cqo3r")

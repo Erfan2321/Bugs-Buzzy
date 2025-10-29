@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://f3qkup8rm3i1"]
+
+[ext_resource type="PackedScene" uid="uid://q4yc4ikfqhcj" path="res://Models/Cage/Cage.glb" id="1_aarcd"]
+[ext_resource type="PackedScene" uid="uid://bbya7bukj3lc8" path="res://Models/Cage/hen.tscn" id="2_cbjtc"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Cage2" parent="." instance=ExtResource("1_aarcd")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Cage2"]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0, 0, 0)
+
+[node name="Hen" parent="." instance=ExtResource("2_cbjtc")]
+transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, 0, -0.045, 0)
