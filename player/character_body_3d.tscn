@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://dhnv82b1kmndp"]
+[gd_scene load_steps=2 format=3 uid="uid://dhnv82b1kmndp"]
+
+[ext_resource type="Script" uid="uid://b10d0vciu5i8j" path="res://player/character_body_3d.gd" id="1_5kvr3"]
 
 [node name="CharacterBody3D" type="Node3D"]
+script = ExtResource("1_5kvr3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(2.1, 0, 0, 0, -1.0105798, 0, 0, 0, 0.41999996, 0, 0, 0)
