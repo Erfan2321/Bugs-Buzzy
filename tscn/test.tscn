@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://cosaq8niltuvw"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_5mtcc"]
+
+[node name="Test" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+mesh = SubResource("BoxMesh_5mtcc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D"]
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 3.7694037)
+mesh = SubResource("BoxMesh_5mtcc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D2"]
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1.7795649, 0)
+mesh = SubResource("BoxMesh_5mtcc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D3"]
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(-0.67618185, 0, 0.73673475, 0, 1, 0, -0.73673475, 0, -0.67618185, 5, 0, 0)
+mesh = SubResource("BoxMesh_5mtcc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D4"]
